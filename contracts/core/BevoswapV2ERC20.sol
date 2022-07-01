@@ -1,7 +1,7 @@
 pragma solidity =0.5.16;
 
-import "./interfaces/IBevoswapV2ERC20.sol";
-import "./libraries/SafeMath.sol";
+import "../interfaces/IBevoswapV2ERC20.sol";
+import "../libraries/SafeMath.sol";
 
 contract BevoswapV2ERC20 is IBevoswapV2ERC20 {
     using SafeMath for uint;
