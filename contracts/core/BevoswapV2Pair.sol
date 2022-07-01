@@ -1,8 +1,8 @@
 pragma solidity =0.5.16;
 
-import "./interfaces/IBevoswapV2Pair.sol";
+import "../interfaces/IBevoswapV2Pair.sol";
 import "./BevoswapV2ERC20.sol";
-import "./libraries/Math.sol";
+import "../libraries/Math.sol";
 import "../libraries/UQ112x112.sol";
 import "../interfaces/IERC20.sol";
 import "../interfaces/IBevoswapV2Factory.sol";

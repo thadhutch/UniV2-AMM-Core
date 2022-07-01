@@ -1,7 +1,7 @@
 pragma solidity =0.5.16;
 
 import "../interfaces/IBevoswapV2Factory.sol";
-import "../BevoswapV2Pair.sol";
+import "./BevoswapV2Pair.sol";
 
 contract BevoswapV2Factory is IBevoswapV2Factory {
     address public feeTo;
